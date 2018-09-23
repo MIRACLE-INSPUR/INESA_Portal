@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'MiracleDjango.apps.MiracledjangoConfig',
+    #'MiracleDjango',
 ]
 
 MIDDLEWARE = [
@@ -79,10 +80,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'WEBAPP',
-        'HOST':'127.0.0.1',
-        'PORT':'3306',
-        'USER':'root',
-        'PASSWORD':'123456@a',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'USER': 'root',
+        'PASSWORD': '123456@a',
     }
 }
 
@@ -125,6 +126,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS=(
-    os.path.join(BASE_DIR,'static'),
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
 )

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>注册页面</title>
-    <link type="text/css" rel="stylesheet" href="/static/css/index.css">
+    <link type="text/css" rel="stylesheet" href="/static/css/registered.css">
 </head>
  <body>
   <div id="content-create" class="wrapper-responsive-create x27w x22i xss">
@@ -17,7 +17,7 @@
     <div class="x5s p_AFCore p_AFDefault" id="content-create::content">
      <div id="headeritems" class="x1a">
       <div>
-       <img src="/static/images/logo.jpg" />
+       <img id="logo" class="branded-logo xkm" src="/static/images/logo.jpg" />
       </div>
       <div>
        <div id="s0" style="margin-top:15px"></div>
@@ -31,7 +31,7 @@
      </div>
      <span class="x241">已有帐户？</span>
      <img id="s3" src="/myprofile/adf/images/t.gif" alt="" width="3px" height="0px" />
-     <a id="signinlink" class="x24e xgn p_AFTextOnly" data-afr-fcs="true" href="secure/update-account.jspx?nexturl=https%3A//www.oracle.com" data-afr-tlen="2" role="link"><span id="signinlink::text" class="x17j">登录</span></a>
+     <a id= " signinlink" class="x24e xgn p_AFTextOnly" data-afr-fcs="true" href="secure/update-account.jspx?nexturl=https%3A//www.oracle.com" data-afr-tlen="2" role="link"><span id="signinlink::text" class="x17j">登录</span></a>
      <div id="s4" style="margin-top:15px"></div>
      <span class="x242" style="display:none">* 为必填信息</span>
      <div id="m1" class="x71" style="display:none;" _afrglobalonly="true"></div>
@@ -68,10 +68,6 @@
                   <div id="afr::msgForemail"></div>
                  </div></td>
                </tr>
-               <tr>
-                <td></td>
-                <td class="x51"><span id="emailInfoResponsive" class="helpText-responsive show-mobile">您的电子邮件地址即为您的用户名。</span></td>
-               </tr>
                <tr class="x23s plm-wrapper-helptext xsv" id="passwordPanel">
                 <td class="x15 x4z"><label class="af_panelLabelAndMessage_label-text">密码</label></td>
                 <td valign="top" class="xvb xt5">
@@ -90,10 +86,6 @@
                  <div id="j_id13:j_id14">
                   <div id="afr::msgForpassword"></div>
                  </div></td>
-               </tr>
-               <tr>
-                <td></td>
-                <td class="x51"><span id="passwordInfoResponsive" class="helpText-responsive show-mobile">密码必须同时包含大小写字母和至少 1 个数字，不得与您电子邮件的任何部分相同，并且必须至少包含 8 个字符。</span></td>
                </tr>
                <tr class="x23s plm-wrapper xsv" id="retypePasswordPanel">
                 <td class="x15 x4z"><label class="af_panelLabelAndMessage_label-text">重新键入密码</label></td>

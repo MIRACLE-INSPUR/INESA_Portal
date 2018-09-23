@@ -15,13 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-]
-
 from MiracleDjango import views
 
-urlpatterns =[
-    path(r'index/',views.index),
+
+urlpatterns = [
+    path(r'admin/', admin.site.urls),
+    path(r'registered/', views.registered),
 ]
+

@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class web_user(models.Model):
     USER_ID = models.CharField(max_length=20)
     USER_code = models.CharField(max_length=20)
