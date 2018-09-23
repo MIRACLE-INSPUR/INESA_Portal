@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for line in data %}
+        <tr>
+        <td>{{ line.USER_email }}</td>
+        <td>{{ line.USER_password }}</td>
+        </tr>
+    {% endfor %}
+</body>
+</html>

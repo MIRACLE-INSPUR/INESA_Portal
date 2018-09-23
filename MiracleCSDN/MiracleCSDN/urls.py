@@ -21,5 +21,7 @@ from MiracleDjango import views
 urlpatterns = [
     path(r'admin/', admin.site.urls),
     path(r'registered/', views.registered),
+    path(r'index/', views.index),
+
 ]
 
