@@ -19,3 +19,9 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+from MiracleDjango import views
+
+urlpatterns =[
+    path(r'index/',views.index),
+]
